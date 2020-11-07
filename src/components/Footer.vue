@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1>This is an Footer page</h1>
+  <div class="title font-weight-light grey--text text--lighten-1 text-center">
+    Made with 💘 by TAMAGOD © 2020
   </div>
 </template>
 

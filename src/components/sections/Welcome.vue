@@ -35,7 +35,9 @@
               outlined
               rounded
             >
-              <v-icon dark>mdi-chevron-double-down</v-icon>
+              <v-icon dark @click="onGoTo($event)"
+                >mdi-chevron-double-down</v-icon
+              >
             </v-btn>
           </v-row>
         </v-container>
@@ -46,6 +48,10 @@
 
 <script>
 export default {
-  name: "Welcome"
+  name: "Welcome",
+
+  data() {
+    //
+  }
 };
 </script>

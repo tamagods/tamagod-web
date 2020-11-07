@@ -1,6 +1,6 @@
 <template>
   <section id="about-me">
-    <div class="py-6"></div>
+    <div class="py-8"></div>
     <v-container class="text-center">
       <h2 class="display-2 font-weight-bold mb-3">ABOUT ME</h2>
       <v-responsive class="mx-auto mb-8" style="width: 56px;">
@@ -31,6 +31,7 @@
         <v-img alt="." src="../../assets/profile-about-me.jpg"></v-img>
       </v-avatar>
     </v-container>
+    <div class="py-6"></div>
   </section>
 </template>
 
