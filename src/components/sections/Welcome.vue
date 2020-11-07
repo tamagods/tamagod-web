@@ -46,10 +46,6 @@
 
 <script>
 export default {
-  name: "Welcome",
-
-  mounted() {
-    console.log(this.$vuetify.breakpoint);
-  }
+  name: "Welcome"
 };
 </script>
